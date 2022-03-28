@@ -1,0 +1,10 @@
+/.idea
+/.ipynb_checkpoints
+/output_files
+/uploaded_files
+/input_files
+/app/input_files
+/app/uploaded_files
+/app/output_files
+/yolov5s.pt
+/__pycache__
