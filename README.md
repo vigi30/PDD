@@ -1,6 +1,6 @@
 # Physical Distance Detector
 
-**API implementation without jupyter works. However API implementation with jupyter executes everything but the provided link is not accessible when the api is initiated from the dockerized jupyter.**
+**API implementation without jupyter works. However, API implementation with jupyter executes everything but the provided link is not accessible when the api is initiated from the dockerized jupyter.**
 
 _**Nevertheless, I have provided the notebook in html format with the name ```PDD.html```  under the current directory. This file has explanation about the code and the methodology used.**_
 
