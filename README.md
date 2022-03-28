@@ -2,7 +2,7 @@
 
 **API implementation without jupyter works. However API implementation with jupyter executes everything but is not accessible when the api is initiated from the dockerized jupyter.**
 
-_**Nevertheless, I have provided the HTML file of the jupyter notebook.**_
+_**Nevertheless, I have provided the .ipynb file under both the directories.**_
 
 ## Installation steps for executinng API implementation without jupyter:
 
