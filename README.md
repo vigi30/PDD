@@ -13,11 +13,11 @@ Run the following steps:
 
 - Step 2: Build the docker image
 ```
-docker build -t PDDimage . 
+docker build -t pddimage . 
 ```
 - Step 3: Run the container
 ```
-docker run -d --name pddimage1 -p 8080:8080 --mount type=bind,src="${pwd}"/output_files,target=/code/output_files PDDimage 
+docker run -d --name pddimage1 -p 8080:8080 --mount type=bind,src="${pwd}"/output_files,target=/code/output_files pddimage 
 
 ```
 - Step 4: Run the following command and look for the message 'Application startup complete.'
@@ -50,7 +50,7 @@ docker build -t PDDJupyterimage  .
 ```
 - Step 3: Run the container
 ```
-docker run -d --name pddimage2 -p 8080:8080 --mount type=bind,src="${pwd}"/output_files,target=/output_files PDDJupyterimage  
+docker run -d --name pddimage2 -p 8888:8888 --mount type=bind,src="${pwd}"/output_files,target=/output_files pddjupyterimage  
 
 ```
 - Step 4: Check the message by running the following command. Go to the link provided and provide the given token  for accessing the jupyter lab
