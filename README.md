@@ -1,4 +1,4 @@
-# PDD
+# Physical/Social Distance Detector
 
 **API implementation without jupyter works. However, API implementation with jupyter executes everything but the provided link is not accessible when the api is initiated from the dockerized jupyter.**
 
